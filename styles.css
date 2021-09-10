@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    height: 100vh;
+    width: 100vh;
+    margin: 0 auto;
+    grid-template-rows: repeat(16, 1fr);
+    grid-template-columns: repeat(16, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container > div {
+    background-color: white;
+    height: 100%;
+    border: 1px solid black;
+}
+
