@@ -1,10 +1,11 @@
 body {
     margin: 0;
+    box-sizing: border-box;
 }
 
 .grid-container {
     display: grid;
-    height: 100vh;
+    height: 80vh;
     width: 100vh;
     margin: 0 auto;
     grid-template-rows: repeat(16, 1fr);
@@ -19,3 +20,32 @@ body {
     border: 1px solid black;
 }
 
+.buttons-container {
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    float: left;
+    height: 50px;
+    width: 250px;
+    background-color: #e1ecf4;
+    color: #5284aa;
+    border: 1px solid #5284aa;
+}
+
+.button:hover {
+    color: #2c5877;
+    background-color: #b3d3ea;
+    cursor: pointer;
+}
+
+.clear {
+    margin-right: 50px;
+}
+
+.white {
+    background-color: white;
+}
