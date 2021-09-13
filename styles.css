@@ -15,7 +15,6 @@ body {
 }
 
 .grid-container > div {
-    background-color: white;
     height: 100%;
     border: 1px solid black;
 }
@@ -30,22 +29,21 @@ body {
 .button {
     float: left;
     height: 50px;
-    width: 250px;
+    width: 150px;
     background-color: #e1ecf4;
     color: #5284aa;
     border: 1px solid #5284aa;
+    margin-right: 50px
 }
 
 .button:hover {
-    color: #2c5877;
+    color: #082438;
     background-color: #b3d3ea;
     cursor: pointer;
 }
 
-.clear {
-    margin-right: 50px;
-}
-
-.white {
-    background-color: white;
+.active {
+    color: #2c5877;
+    background-color: #b3d3ea;
+    cursor: pointer;
 }
